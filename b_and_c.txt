@@ -1,0 +1,10 @@
+part b.
+I chose frame A as the reference frame. Since frame B is rotated by 180° relative to frame A, 
+both the x and y coordinates of Scan B are can be ignored. 
+as the hw file shows, frame B is 1.4m away on the positive y-axis of frame A, so 1.4 m is added to the transformed y-coord. 
+so then we can plot the transformed scan B points with scan A to form the fused scan.
+
+part c.
+We could tell its an incorrect transformation if after applying it, the pooints did not mostly overlap-
+like if they were 2.8m appart instead then we'd know it was the wrong sign applied, or  if the walls were
+in a different orientation, then the angle applied could have been wrong.
